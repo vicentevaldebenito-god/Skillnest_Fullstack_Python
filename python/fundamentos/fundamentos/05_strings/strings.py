@@ -109,7 +109,11 @@ print("Mi mascota {} tiene {} años y su especie es {}".format(nombre_mascota, e
 # Nota que el método format lee la cadena de caracteres de izquierda a derecha, y va reemplazando las {} con el valor de las variables dadas en orden. Es importante entender que dado a esto, el número de {} debe ser el mismo número de argumentos dados a la función.
 
 # 🧮 %-formatting
-# Quizás en algún código te puedas topar con un método que se utilizaba antes de que existiera las formas vistas antes de interpolación. En lugar de utilizar llaves, se utiliza el símbolo % para indicar un parámetro; %s para indicar una cadena y %d para indicar un número. Una vez establecida la cadena, se coloca de nuevo % para separar el texto de las variables que serán interpoladas. Por ejemplo:
+# Quizás en algún código te puedas topar con un método que se utilizaba antes de que
+#  existiera las formas vistas antes de interpolación. En lugar de utilizar llaves
+# , se utiliza el símbolo % para indicar un parámetro; %s para indicar una cadena y 
+# %d para indicar un número. Una vez establecida la cadena, se coloca de nuevo % para
+#  separar el texto de las variables que serán interpoladas. Por ejemplo:
 
 # nombre = "Marcelo"
 # edad = 29
